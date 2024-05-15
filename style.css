@@ -2,6 +2,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: bold;
+    color: #AAAAAA;
 }
 
 /* ....................
@@ -13,6 +14,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    color: black;
 
 }
 
@@ -42,6 +44,7 @@ main pattern
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    color: black;
 }
 
 .main-sec1 {
@@ -82,10 +85,9 @@ main pattern
 }
 
 .main-sec2 {
-    width: 440px;
-    height: 414px;
-    background-image: url(images/main-camera-background.png);
-    background-size: 800px 475px;
+
+    background-image: url(images/Circle\ design.svg);
+    background-size: 475px 475px;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -109,4 +111,16 @@ sponsor
     margin-top: 80px;
     border-bottom: 2px solid rgb(198, 192, 192);
     border-top: 2px solid rgb(198, 192, 192);
+}
+
+.courses-ele {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    color: black;
+}
+
+.courses-ele1 {
+    width: 329px;
+    height: 476px;
 }
