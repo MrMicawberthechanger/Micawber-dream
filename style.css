@@ -3,3 +3,34 @@ body {
     font-weight: 700;
     font-style: normal;
 }
+
+/* ....................
+         nav bar 
+.................... */
+.nav-bar {}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.nav-title {
+    font-size: 24px;
+}
+
+nav a {
+
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-size: 16px;
+
+}
+
+.fa-solid {
+    width: 36px;
+    height: 36px;
+
+}
