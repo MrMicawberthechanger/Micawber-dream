@@ -77,7 +77,17 @@ main pattern
     color: white;
 }
 
+.button2 {
+    background-color: #ea146d;
+    color: white;
+}
+
 .button1:hover {
+    background-color: #ca13db;
+    color: rgb(255, 255, 255);
+}
+
+.button2:hover {
     background-color: #ca13db;
     color: rgb(255, 255, 255);
 }
@@ -170,4 +180,36 @@ ELEMENTS
     text-decoration: none;
 
     color: #ea146d;
+}
+
+.master-course {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+
+}
+
+.master-courses-ele {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.master-course-img {
+    width: 404px;
+    height: 270px;
+    margin-right: 50px;
+    padding: 10px;
+}
+
+.master-course-det {
+    width: 610px;
+    height: 224px;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+.master-course-tit {
+    font-size: 38px;
 }
