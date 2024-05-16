@@ -118,6 +118,7 @@ sponsor
     justify-content: center;
     align-items: center;
     color: black;
+    margin-top: 50px;
 }
 
 .courses {
@@ -128,9 +129,15 @@ sponsor
 
 }
 
+.course-tit {
+    text-align: center;
+    margin: 10px;
+}
+
 .course {
     background-color: #FFFFFF;
     border-radius: 4px;
+    margin-top: 10px;
 }
 
 .ele-img {
@@ -141,4 +148,15 @@ sponsor
 
 .course-des {
     padding: 8px;
+}
+
+.course-about {
+    text-align: end;
+    margin-top: 40px;
+}
+
+.course-about a {
+    text-decoration: none;
+
+    color: #ea146d;
 }
