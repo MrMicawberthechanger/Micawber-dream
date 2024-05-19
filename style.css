@@ -32,7 +32,7 @@ nav a {
 
 }
 
-.fa-solid {
+#nav-icon {
     width: 36px;
     height: 36px;
 
@@ -212,4 +212,21 @@ ELEMENTS
 
 .master-course-tit {
     font-size: 38px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #0A0826;
+    color: white;
+    margin-top: 4%;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.foot-des {
+    font-size: 14px;
+}
+
+.foot-icon {
+    margin-left: 25px;
 }
