@@ -182,12 +182,15 @@ ELEMENTS
     color: #ea146d;
 }
 
+/* ....................
+last part
+.................... */
+
 .master-course {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 80px;
-
 }
 
 .master-courses-ele {
@@ -214,6 +217,10 @@ ELEMENTS
     font-size: 38px;
 }
 
+/* ..............
+footer
+............... */
+
 .footer {
     text-align: center;
     background-color: #0A0826;
@@ -229,4 +236,65 @@ ELEMENTS
 
 .foot-icon {
     margin-left: 25px;
+}
+
+/* .................
+responsive
+................ */
+
+@media only screen and (max-width:688px) {
+
+    .header-part {
+        width: 100%;
+
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    nav a {
+        padding: 5px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .nav-but {
+        display: grid;
+        grid-template-columns: repeat(5, 5fr);
+
+    }
+
+    .main {
+        margin: 2%;
+
+        flex-direction: column-reverse;
+    }
+
+    .main-sec1 {
+        width: 274px;
+        text-align: center;
+    }
+
+    .main-sec2 {
+        width: 374px;
+        height: 270px;
+        background-size: 257px 257px;
+    }
+
+    .main-sec2-img {
+        width: 202px;
+        height: 190px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 54px;
+    }
+
+
+
+    .main-sec1-tit {
+        font-size: 24px;
+    }
 }
