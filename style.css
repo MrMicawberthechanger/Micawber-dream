@@ -292,9 +292,36 @@ responsive
         margin-top: 54px;
     }
 
-
-
     .main-sec1-tit {
         font-size: 24px;
+    }
+
+    .sponsor {
+
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        width: 360px;
+
+        margin-top: 70px;
+        margin-left: 40px;
+
+        border: 0px;
+
+    }
+
+    .sponsor-contain {
+        width: 45px;
+    }
+
+    .sponsor img {
+        width: 33.38px;
+        height: 18.84px;
+
+    }
+
+    .courses {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 }
