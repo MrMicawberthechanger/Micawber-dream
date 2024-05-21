@@ -329,12 +329,30 @@ responsive
 
     }
 
-    .master-course {
-        width: 100%;
-    }
-
     .master-courses-ele {
-
+        display: flex;
         flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
     }
+
+    .master-course-det {
+        margin-left: 0;
+        width: 328px;
+        height: 308px;
+        padding: 0px;
+        margin-right: 0px;
+    }
+
+    .master-course-img {
+        width: 300px;
+        text-align: center;
+    }
+
+    .master-course-image {
+        width: 299px;
+        height: 188px;
+        margin-top: 60px;
+    }
+
 }
