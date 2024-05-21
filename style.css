@@ -300,10 +300,10 @@ responsive
 
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        width: 360px;
+        width: 320px;
 
         margin-top: 70px;
-        margin-left: 40px;
+        margin-left: 30px;
 
         border: 0px;
 
@@ -319,9 +319,22 @@ responsive
 
     }
 
-    .courses {
+    .elements {
         width: 100%;
+    }
+
+    .courses {
         display: flex;
         flex-direction: column;
+
+    }
+
+    .master-course {
+        width: 100%;
+    }
+
+    .master-courses-ele {
+
+        flex-direction: column-reverse;
     }
 }
